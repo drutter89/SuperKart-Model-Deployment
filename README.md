@@ -96,6 +96,9 @@ SuperKart-Model-Deployment/
 │   ├── Dockerfile
 │   └── requirements.txt
 │
+├── notebook/
+│   └── Completed_SuperKart_Model_Deployment_Notebook.html
+│
 ├── screenshots/
 │   └── superkart-ui.jpg
 │
