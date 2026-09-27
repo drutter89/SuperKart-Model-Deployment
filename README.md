@@ -79,7 +79,7 @@ The frontend sends these values to the Flask API, which loads the trained SuperK
 The completed notebook containing the model development, analysis, deployment,
 and testing workflow is included with this repository.
 
-[View the completed notebook](notebook/Completed_SuperKart_Model_Deployment_Notebook.html)
+[View the completed notebook](https://<username>.github.io/SuperKart-Model-Deployment/notebook/Completed_SuperKart_Model_Deployment_Notebook.html)
 
 ## Project Structure
 
