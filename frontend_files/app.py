@@ -1,8 +1,14 @@
 import streamlit as st
 import requests
 
-st.title('SuperKart Sales Forecast')
-api_url = st.text_input('Backend URL', 'http://127.0.0.1:7860')
+st.title("SuperKart Sales Forecast")
+
+st.caption(
+    "Estimate product sales across different SuperKart store types and locations "
+    "to support inventory and stocking decisions."
+)
+
+api_url = st.text_input("Backend URL", "http://127.0.0.1:7860")
 with st.form('prediction_form'):
     weight = st.number_input('Product Weight', min_value=0.0, value=12.66)
     sugar = st.selectbox('Sugar Content', ['Low Sugar','Regular','No Sugar'])
@@ -10,7 +16,16 @@ with st.form('prediction_form'):
     mrp = st.number_input('Product MRP', min_value=0.0, value=117.08)
     size = st.selectbox('Store Size', ['Small','Medium','High'])
     city = st.selectbox('City Type', ['Tier 1','Tier 2','Tier 3'])
-    store = st.selectbox('Store Type', ['Supermarket Type1','Supermarket Type2','Departmental Store','Food Mart'])
+    store = st.selectbox(
+    'Store Type',
+    [
+        'Supermarket Type1',
+        'Supermarket Type2',
+        'Supermarket Type3',
+        'Departmental Store',
+        'Food Mart'
+    ]
+)
     pid = st.selectbox('Product ID Prefix', ['FD','DR','NC'])
     age = st.number_input('Store Age (Years)', min_value=0, value=16)
     category = st.selectbox('Product Type Category', ['Perishables','Non Perishables'])
