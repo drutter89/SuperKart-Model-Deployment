@@ -13,7 +13,7 @@ The project consists of:
 
 The Streamlit interface allows users to enter product and store information and generate a sales prediction using the deployed machine-learning model.
 
-![SuperKart Sales Forecast UI](screenshots/superkart-ui.jpg)
+![SuperKart Sales Forecast UI](screenshots/superkart-ui-final.jpg)
 
 ## Running the Application
 
