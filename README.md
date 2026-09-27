@@ -74,6 +74,13 @@ The application accepts product and store characteristics including:
 
 The frontend sends these values to the Flask API, which loads the trained SuperKart model and returns the predicted sales value.
 
+## Completed Notebook
+
+The completed notebook containing the model development, analysis, deployment,
+and testing workflow is included with this repository.
+
+[View the completed notebook](notebook/Completed_SuperKart_Model_Deployment_Notebook.html)
+
 ## Project Structure
 
 ```text
