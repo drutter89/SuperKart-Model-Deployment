@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.title('SuperKart Sales Forecast')
-api_url = st.text_input('Backend URL', 'http://backend:7860')
+api_url = st.text_input('Backend URL', 'http://superkart-backend:7860')
 with st.form('prediction_form'):
     weight = st.number_input('Product Weight', min_value=0.0, value=12.66)
     sugar = st.selectbox('Sugar Content', ['Low Sugar','Regular','No Sugar'])
